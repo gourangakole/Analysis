@@ -1,0 +1,12 @@
+Mon May  1 15:36:23 CEST 2017
+CONDOR DIR: /pool/condor/dir_1749304
+INPUT FILE:  /cms/store/user/rverma/multicrab_29April17/MuMC_20170429/TTJets_MuMC_20170429/TTJets_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/TTJets_MuMC_20170429/170429_110042/0000/TTJets_MuMC_20170429_Ntuple_1.root
+libraries loaded
+ Lumi/Pileup Reweighting: Computed Weights per In-Time Nint 
+///// Begin processing base  selection ///////
+OUTPUT: 
+TTJets_MuMC_20170429_Ntuple_1_Anal.root
+TTJets_MuMC_20170429_Ntuple_1_Anal.root_debug.txt
+
+DONE
+Mon May  1 15:40:25 CEST 2017

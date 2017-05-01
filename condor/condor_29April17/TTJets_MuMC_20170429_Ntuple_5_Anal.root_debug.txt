@@ -1,0 +1,13 @@
+///// Begin processing base  selection ///////
+Input file : root://se01.indiacms.res.in:1094//cms/store/user/rverma/multicrab_29April17/MuMC_20170429/TTJets_MuMC_20170429/TTJets_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/TTJets_MuMC_20170429/170429_110042/0000/TTJets_MuMC_20170429_Ntuple_5.root
+Available input sample : 1.20217e+06
+sampleWeight = 1
+Number of times HadP and HadQ matches with jets0
+total number of selected events 39542
+No of times three pair jet matched:    0
+No of correct jet pair assign to W:   0
+No of not correct jet pair assign to W:   0
+No of correct jet pair not assign to W but |eta| < 2.5 and pt > 25:   0
+No of correct jet matched to b (from top) :   0
+Average weights for top-reweighting : 1.33211e+06/1.33211e+06 = 1
+Efficiency Uncertainty on the SV finding : 0/0 = -nan

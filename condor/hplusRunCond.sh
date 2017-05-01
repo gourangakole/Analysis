@@ -14,14 +14,7 @@
 #create a directory where all the outputs will be
 #stored, for different merged ntuple input files
 #------------------------------------------------
-#outcond="outcond_MuRunBv3"
-#outcond="outcond_MuRunCv1"
-#outcond="outcond_MuRunDv1"
-#outcond="outcond_MuRunEv1"
-#outcond="outcond_MuRunFv1"
-outcond="outcond_MuRunGv1"
-#outcond="outcond_MuRunHv2"
-#outcond="outcond_MuRunHv3"
+outcond="outcond_29April17"
 
 mkdir $outcond
 cp hplusCond.sub $outcond
@@ -52,7 +45,7 @@ do
   sec_last=`expr $len - 1`
   #sec_last=`expr $len`
   ntuple=${array[$sec_last]}
-  echo $ntuple
+  #echo $ntuple
   iFile=${ntuple/.root/""}
  
   #----------------------------------------------

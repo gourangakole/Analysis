@@ -169,17 +169,16 @@ MyMET Reader::getMET(MyEvent* ev, string algo)
  
   MyMET selmet;
  
-  vector<MyMET> allMETs = ev->mets; 
+  vector<MyMET> allMETs = ev->mets;
   for(size_t imet=0; imet < allMETs.size(); ++imet){ 
     if(algo.find("PFlow") != std::string::npos){ 
       if(allMETs[imet].metName.find(algo) != std::string::npos){ 
         selmet = allMETs[imet]; 
       } 
     } 
-    else if(allMETs[imet].metName == algo ){ 
+    ///else if(allMETs[imet].metName == algo ){ 
       selmet = allMETs[imet];
-    } 
+    ///} 
   } 
- 
   return selmet; 
 } 

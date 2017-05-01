@@ -1,0 +1,34 @@
+Mon May  1 15:36:23 CEST 2017
+CONDOR DIR: /pool/condor/dir_1362648
+INPUT FILE:  /cms/store/user/rverma/multicrab_29April17/MuMC_20170429/TTJets_MuMC_20170429/TTJets_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/TTJets_MuMC_20170429/170429_110042/0000/TTJets_MuMC_20170429_Ntuple_3.root
+libraries loaded
+ Lumi/Pileup Reweighting: Computed Weights per In-Time Nint 
+///// Begin processing base  selection ///////
+ nEntries 1333310
+Input file : root://se01.indiacms.res.in:1094//cms/store/user/rverma/multicrab_29April17/MuMC_20170429/TTJets_MuMC_20170429/TTJets_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/TTJets_MuMC_20170429/170429_110042/0000/TTJets_MuMC_20170429_Ntuple_9.root
+[01;32mEvent number = [00m0
+input count: 10
+input count: 20
+input count: 30
+[01;32mEvent number = [00m1000
+input count: 40
+input count: 50
+input count: 60
+[01;32mEvent number = [00m2000
+input count: 70
+input count: 80
+input count: 90
+input count: 100
+[01;32mEvent number = [00m3000
+input count: 110
+input count: 120
+input count: 130
+[01;32mEvent number = [00m4000
+input count: 140
+input count: 150
+input count: 160
+[01;32mEvent number = [00m5000
+input count: 170
+OUTPUT: 
+DONE
+Mon May  1 15:37:40 CEST 2017

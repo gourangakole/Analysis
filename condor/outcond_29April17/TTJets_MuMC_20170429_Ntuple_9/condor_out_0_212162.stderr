@@ -1,0 +1,67 @@
+Info in <TUnixSystem::ACLiC>: creating shared library /pool/condor/dir_1541051/Analysis/./hplusAnalyzer_C.so
+In file included from /pool/condor/dir_1541051/Analysis/hplusAnalyzer_C_ACLiC_dict.h:34:0,
+                 from /pool/condor/dir_1541051/Analysis/hplusAnalyzer_C_ACLiC_dict.cxx:17:
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C: In member function 'void hplusAnalyzer::CutFlowProcessor(TString, std::string, TString, bool, TFile*)':
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:377:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:377:63: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                                               ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:381:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int m=0; m<m_init.size(); m++){
+                                    ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:395:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:395:63: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                                               ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:398:36: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int m=0; m<m_init.size(); m++){
+                                    ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:455:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:455:63: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                                               ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:488:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:488:63: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                                               ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:583:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:583:63: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if(Vertices.size() >= 10*v && Vertices.size() <= 10*(v+1)){
+                                                               ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:587:16: warning: declaration of 'bDiscr' shadows a previous local [-Wshadow]
+         double bDiscr = 0.0 ;
+                ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:538:12: warning: shadowed declaration is here [-Wshadow]
+     double bDiscr = 0.0 ;
+            ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:415:9: warning: unused variable 'muCharge' [-Wunused-variable]
+     int muCharge = pfMuons[m_i].charge;
+         ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:177:36: warning: variable 'bscale' set but not used [-Wunused-but-set-variable]
+   int jes = 1, jer = 1, metuc = 1, bscale = 0;
+                                    ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:218:10: warning: unused variable 'corr_jet_pair_cs' [-Wunused-variable]
+   double corr_jet_pair_cs = 0.0, corr_jet_pair_ud = 0.0;
+          ^
+/pool/condor/dir_1541051/Analysis/./hplusAnalyzer.C:218:34: warning: unused variable 'corr_jet_pair_ud' [-Wunused-variable]
+   double corr_jet_pair_cs = 0.0, corr_jet_pair_ud = 0.0;
+                                  ^
+./runMe.sh: line 19:   159 Bus error               root -l -b  <<EOF
+.L hplusAnalyzer.C+
+hplusAnalyzer t
+t.processEvents()
+.q
+EOF
+
+[xrootd] Total 0.00 MB	|====================| 100.00 % [0.0 MB/s]Error opening remote destination file root://se01.indiacms.res.in:1094//cms/store/user/rverma/condor_29April17/TTJets_MuMC_20170429_Ntuple_9_Anal.root_debug.txt
+Last server error 3010 ('Unable to create /cms/store/user/rverma/condor_29April17/TTJets_MuMC_20170429_Ntuple_9_Anal.root_debug.txt; permission denied')
