@@ -8,7 +8,8 @@ OBJS = $(addsuffix .o,$(basename $(files)))
 
 OPT = -O -Wall -fPIC -D_REENTRANT
 INC = -I${ROOTSYS}/include -I..
-EXT = -std=c++11
+#EXT = -std=c++11
+EXT = -std=c++1y
 
 .cc.o:
 	$(CXX) $(OPT) $(INC) $(EXT) -c $*.cc
