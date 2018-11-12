@@ -21,6 +21,7 @@
 #include "interface/UncertaintyComputer.hh"
 #include "interface/HistogramPlotter.hh"
 #include "interface/BTagCalibrationStandalone.h"
+#include "TTree.h"
 
 
 //---------------------------------------------------//
